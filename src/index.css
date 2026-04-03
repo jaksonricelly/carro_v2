@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -7,4 +8,6 @@
   --color-offwhite: rgba(255,255,255,0.75);
   --color-white: #ffffff;
   --color-off-white-bg: #f2f2f2;
+  --font-big-shoulders: "Big Shoulders Display", sans-serif;
+  --font-lexend: "Lexend Deca", sans-serif;
 }
