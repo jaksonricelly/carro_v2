@@ -2,7 +2,7 @@ import iconSuvs from "../assets/icon-suvs.svg"
 
 export default function Suvs() {
   return (
-    <div className="bg-green p-12">
+    <section className="bg-green p-12">
       <img src={iconSuvs} alt="Icone dos carros Suvs" className="mb-7" />
       <h2 className="font-big-shoulders mb-7 uppercase text-4xl text-off-white-bg font-bold">
         SUVs
@@ -18,6 +18,6 @@ export default function Suvs() {
       >
         Ver mais
       </a>
-    </div>
+    </section>
   );
 }

@@ -2,7 +2,7 @@ import iconSedans from "../assets/icon-sedans.svg";
 
 export default function Sedans() {
   return (
-    <div className="bg-orange p-12 max-lg:rounded-t-lg lg:rounded-l-lg">
+    <section className="bg-orange p-12 max-lg:rounded-t-lg lg:rounded-l-lg">
       <img src={iconSedans} alt="Icone dos carros" className="mb-7" />
       <h2 className="font-big-shoulders mb-7 uppercase text-4xl text-off-white-bg font-bold">
         Sedans
@@ -18,6 +18,6 @@ export default function Sedans() {
       >
         Ver mais
       </a>
-    </div>
+    </section>
   );
 }

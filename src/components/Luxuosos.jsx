@@ -2,7 +2,7 @@ import iconLuxuosos from "../assets/icon-luxury.svg"
 
 export default function Luxuosos() {
   return (
-    <div className="bg-dark-green p-12 max-lg:rounded-b-lg lg:rounded-r-lg">
+    <section className="bg-dark-green p-12 max-lg:rounded-b-lg lg:rounded-r-lg">
       <img
         src={iconLuxuosos}
         alt="Icone dos carros luxuosos"
@@ -22,6 +22,6 @@ export default function Luxuosos() {
       >
         Ver mais
       </a>
-    </div>
+    </section>
   );
 }
